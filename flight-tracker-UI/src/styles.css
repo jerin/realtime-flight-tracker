@@ -1,0 +1,10 @@
+html, body, #root { height: 100%; margin: 0; }
+#map { height: 100%; }
+
+
+/* plane-icon rotation container */
+.plane-icon { display: inline-block; transform-origin: 50% 50%; }
+
+
+/* remove default marker container styles */
+.leaflet-marker-icon.none { background: none; border: none; }
